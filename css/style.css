@@ -3,37 +3,88 @@
     margin: 0;
     padding: 0;
 }
-
-/* debug */
-[class*="col-"]{
-    background-color: rgba(44,62,80,255);
-    height: 40px;
+p{
+    color: white;
+}
+img{
+    max-width: 100%;
 }
 
-[class*="row"]{
+/* /style */
+.navbar a{
+    color: white;
+}
+
+.cn_gray{
+    background-color: rgba(44,62,80,255);
+}
+.cn_gray2{
+    background-color: rgba(58,84,109,255);
+}
+.cn_green{
     background-color: rgba(26,188,156,255);
+}
+#topbarlog{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+
+}
+#avatar{
+   width: 30%;
+   margin-top: 20px;
+}
+#title{
+    color: white;
+    text-align: center;
+
+}
+#titleblack{
+    color: black;
+    text-align: center;
+}
+.subtitle{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+.hrwhite{
+    border: solid 2px white;
+    max-width: 200px;
     
 }
-
-/* style */
-
-/* debug griglia */
-/* col margin */
-.cl_margin-tb{
-    margin-top: 20px;
-    margin-bottom: 20px;
+.hrblack{
+    border: solid 2px black;
+    max-width: 200px;
 }
-.cl_margin-lr{
-    margin-left: 10px;
-    margin-right: 10px;
+.blackstar{
+    color: black;
 }
-
-/* rw margin */
-.rw_margin-tb{
-    margin-top: 10px;
-    margin-bottom: 10px;
+.whitestar{
+    color: white;
 }
-
+.card{
+    border-radius: 20px;
+}
+.list{
+    color: black;
+    text-align: left;
+    font-size: 12px;
+}
+.staccato{
+    margin-top: 150px;
+}
+#send{
+    background-color: rgba(26,188,156,255);
+    border: none;
+}
+.utility{
+    font-size: 16px;
+    color: white;
+}
+.descutility{
+    font-size: 8px;
+}
 /* container margin */
 .cn_margin-tb{
     margin-top: 40px;
