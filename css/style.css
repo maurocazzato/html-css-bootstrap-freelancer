@@ -50,12 +50,12 @@ img{
 }
 .hrwhite{
     border: solid 2px white;
-    max-width: 200px;
+    max-width: 300px;
     
 }
 .hrblack{
     border: solid 2px black;
-    max-width: 200px;
+    max-width: 300px;
 }
 .blackstar{
     color: black;
